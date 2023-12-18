@@ -8,7 +8,7 @@ from langchain_core.language_models import BaseLanguageModel
 from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import BaseTool
 
-from PromptKernel.IntentionRouter.ControllerAgents.Api.Constants import API_ORCHESTRATOR_PROMPT
+from PromptKernel.IntentionRouter.ControllerAgents.Api.ApiExecutorOrchestratorConstants import API_ORCHESTRATOR_PROMPT
 from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiController import ApiController
 from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiDecisionPlanner import ApiDecisionPlanner
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient

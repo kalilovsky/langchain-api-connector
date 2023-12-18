@@ -9,7 +9,7 @@ from langchain.agents.agent import AgentExecutor
 from langchain.agents.mrkl.base import ZeroShotAgent
 from langchain.chains.llm import LLMChain
 
-from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.Constants import API_KEY, PARSING_GET_PROMPT, PARSING_POST_PROMPT, \
+from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiWebConstants import API_KEY, PARSING_GET_PROMPT, PARSING_POST_PROMPT, \
     API_CONTROLLER_PROMPT
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient
 from PromptKernel.LLMClient.Constants import GPT4MODEL

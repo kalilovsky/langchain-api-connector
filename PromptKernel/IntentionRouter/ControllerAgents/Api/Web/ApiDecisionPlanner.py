@@ -6,7 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import BaseTool
 from langchain.chains.llm import LLMChain
 
-from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.Constants import API_PLANNER_PROMPT
+from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiWebConstants import API_PLANNER_PROMPT
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient
 from PromptKernel.LLMClient.Constants import GPT4MODEL
 
