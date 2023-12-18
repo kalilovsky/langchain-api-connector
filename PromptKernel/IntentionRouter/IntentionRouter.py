@@ -6,7 +6,7 @@ from langchain_core.prompts import PromptTemplate
 from PromptKernel.IntentionRouter.ControllerAgents.Api.ApiExecutorOrchestrator import ApiExecutorOrchestrator
 from PromptKernel.IntentionRouter.IntentionRoutersConstants import INTENTION_ROUTER_PROMPT
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient
-from PromptKernel.LLMClient.Constants import GPT4MODEL
+from PromptKernel.LLMClient.LLMClientConstants import GPT4MODEL
 from PromptKernel.Types.UserPrompts import UserPrompts
 
 

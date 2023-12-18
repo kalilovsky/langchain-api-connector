@@ -12,7 +12,7 @@ from PromptKernel.IntentionRouter.ControllerAgents.Api.ApiExecutorOrchestratorCo
 from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiController import ApiController
 from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiDecisionPlanner import ApiDecisionPlanner
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient
-from PromptKernel.LLMClient.Constants import GPT4MODEL
+from PromptKernel.LLMClient.LLMClientConstants import GPT4MODEL
 
 
 class ApiExecutorOrchestrator(BaseTool):

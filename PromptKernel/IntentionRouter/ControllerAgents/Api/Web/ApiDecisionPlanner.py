@@ -8,7 +8,7 @@ from langchain.chains.llm import LLMChain
 
 from PromptKernel.IntentionRouter.ControllerAgents.Api.Web.ApiWebConstants import API_PLANNER_PROMPT
 from PromptKernel.LLMClient.ChatOpenAIClient import ChatOpenAIClient
-from PromptKernel.LLMClient.Constants import GPT4MODEL
+from PromptKernel.LLMClient.LLMClientConstants import GPT4MODEL
 
 
 class ApiDecisionPlanner(BaseTool):
